@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BackEnd</title>
+    <link rel="stylesheet" href="styles/main.css" class="">
+</head>
+<body>
+    <h1 class="header">😸 Cat Image Generator 😸 </h1>
+    <div>
+    <form action="/submit" method="POST" class ="forms">
+        <input type="submit" value="Click">
+      </form>
+          <%if(locals.facts){ %>
+            <img src = "<%= facts %>" alt="cat" class="cats">
+         <% } else { %> 
+            <h3 class="image">Click on the button to Generate Random Cat Image or GIFs.</h3>
+         <%  }%> 
+    
+        </div>   
+    <footer>
+        Mohd Ayaan@ 2024
+    </footer>
+   </body>
+  
+</html>

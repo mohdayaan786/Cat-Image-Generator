@@ -1,0 +1,50 @@
+body{
+    background-image: url("/images/pexels-fwstudio-33348-164005.jpg");
+}
+.cats{
+    margin-left:30%;
+      width: 40vw;
+      height : 35vw;
+}
+
+.cats:hover{
+    border: 20px solid bisque;
+    transition :border 1s;
+}
+.header{
+    color:red;
+    font-size: 60px;
+    text-align: center;
+}
+.api{
+    color : blue;
+}
+.facts{
+    color:rgb(30, 155, 233);
+}
+footer{
+    margin-top:15px;
+    text-align: center;
+    color: rgb(44, 24, 146);
+   font-weight:bold;
+}
+.forms{
+    display: flex;
+    justify-content: center;
+}
+input{
+    padding: 20px 10px;
+    background-color: yellow;
+    color: rgb(209, 33, 33);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+input:hover{
+    background-color: rgb(35, 197, 29);
+}
+.image{
+    text-align: center;
+    color:blue;
+
+}
